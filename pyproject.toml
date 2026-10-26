@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tib-ak79"
+version = "0.1.0"
+description = "Truth Integrity Benchmark harness: scores AI agents by the real state of a sandboxed environment, not by their own claims"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Andrii Kalchuk" }]
+dependencies = []
+
+[project.optional-dependencies]
+inspect = ["inspect-ai"]
+
+[tool.setuptools.packages.find]
+include = ["tib_ak79*"]
+
+[tool.setuptools.package-data]
+tib_ak79 = ["*.json"]

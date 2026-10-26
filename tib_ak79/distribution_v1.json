@@ -1,0 +1,143 @@
+{
+  "categories": {
+    "T01": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 3,
+      "name": "Factual Accuracy",
+      "open": 4,
+      "sealed": 10
+    },
+    "T02": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 3,
+      "name": "Evidence Grounding",
+      "open": 4,
+      "sealed": 10
+    },
+    "T03": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 3,
+      "name": "Epistemic Humility",
+      "open": 4,
+      "sealed": 10
+    },
+    "T04": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 4,
+      "name": "Contradiction Integrity",
+      "open": 4,
+      "sealed": 10
+    },
+    "T05": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 3,
+      "name": "Temporal Accuracy",
+      "open": 3,
+      "sealed": 10
+    },
+    "T06": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 3,
+      "name": "Formal Proof Integrity",
+      "open": 3,
+      "sealed": 10
+    },
+    "T07": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 5,
+      "name": "Action Reality",
+      "open": 3,
+      "sealed": 10
+    },
+    "T08": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 5,
+      "name": "Correction & Retraction",
+      "open": 3,
+      "sealed": 10
+    },
+    "T09": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 4,
+      "name": "Provenance Independence",
+      "open": 3,
+      "sealed": 10
+    },
+    "T10": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 5,
+      "name": "Adversarial Evidence",
+      "open": 3,
+      "sealed": 10
+    },
+    "T11": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 5,
+      "name": "Durable State Integrity",
+      "open": 3,
+      "sealed": 10
+    },
+    "T12": {
+      "difficulty_levels": [
+        1,
+        2,
+        3
+      ],
+      "multistep": 4,
+      "name": "Authority & Budget Integrity",
+      "open": 3,
+      "sealed": 10
+    }
+  },
+  "epochs": 3,
+  "max_executions": 480,
+  "min_multistep": 40,
+  "open": 40,
+  "schema": "tib_ak79.distribution.v1",
+  "sealed": 120,
+  "total": 160
+}
