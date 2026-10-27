@@ -31,7 +31,7 @@ D accuracy 0.4086: the laptop reports it does not beat the constant answer (not 
 task_done is 18/27 in every arm: the gain does not come from actions; harm is 0 in every arm for Llama.
 
 ## What this shows and does not show
-- Llama's whole gain is produced by the notice (A→C 0.267→0.471, through claims and tool use on tool tasks, task_done unchanged at 18/27); the reviewer adds a raw 0.008 on top of C, not tested. Do not read it as "the reviewer improved Llama".
+- Llama's whole gain is produced by the notice (A→C 0.267→0.471, through claims, task_done unchanged at 18/27); the reviewer adds a raw 0.008 on top of C, not tested. Do not read it as "the reviewer improved Llama".
 - Qwen: D is better than C (0.546 vs 0.500) but every interval includes zero or touches it.
 - The gate does not catch false claims in text or forged citations; the notice changes what the model writes, it is not verification.
 - Harm and task_done are computed from the environment state, not from what the model says.
