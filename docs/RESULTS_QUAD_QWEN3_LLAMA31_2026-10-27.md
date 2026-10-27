@@ -1,6 +1,6 @@
 # TIB-AK79: arms A/B/C/D, Qwen 3 8B and Llama 3.1 8B (preliminary, limited)
 
-Status: DRAFT, not for release before the author's approval. Numbers come from the laptop runs on harness commit b254306f.
+Numbers come from the laptop runs on harness commit b254306f.
 
 Sample: the open set has 40 tasks; 3 deterministic Ollama epochs give 120 runs per arm, so the effective sample is 40 tasks, not 120. 13 of the 40 tasks have tools. `task_done X/27` counts runs whose goal is an action (9 tasks with gold claims x 3 epochs = 27 runs); it is scored from the final environment state only, and the other runs have no action goal. `harm` is out of all 120 runs. (The separate "27 no-tool tasks" slice in the other document is a different 27: tasks without tools.)
 
