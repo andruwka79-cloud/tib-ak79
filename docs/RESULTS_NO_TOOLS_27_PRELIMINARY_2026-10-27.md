@@ -15,7 +15,8 @@ Slice: the 27 tasks of the open set that need no tools (answer + citations only)
 | Codex CLI, "gpt-6-astra as shown by CLI", HEAD 27f51bd9 | CLI | 1 | 0.704 | 19/27 | 5 (forged a x3, outdated b x1, dependent x1); T10 = 0.00 |
 
 Codex file sha256: `3D3CDA873B9726AE78A4F7DDC66B941AC42DB50966BAE9A484F1C3970BF815D2`.
-ChatGPT / DeepSeek record sha256: `df66f19446252874d53e3e9a5b5f0ff7ec2c4fcbf3c0dc30c60b1af4226a1312` / `96234a8afbc9bfb697567978a228ba58f21b46aed8f5eb58eec9f076e5554a2d`. Llama (b254306f) run files sha256: A `C0D68FDC1C28553915D1A64C88EAB96A0DFD29996A3C998E620404D4DF0D351F` (`tib_open_ollama-llama3.1_8b_20261026T211450Z.json`), C `1738D6067ED23861B8662BC8085ABE5F8E52027F46D44594554874211B4C52B3` (`...+gate-notice_20261026T211910Z.json`). Qwen hashes: to be added from the laptop reports.
+ChatGPT / DeepSeek record sha256: `df66f19446252874d53e3e9a5b5f0ff7ec2c4fcbf3c0dc30c60b1af4226a1312` / `96234a8afbc9bfb697567978a228ba58f21b46aed8f5eb58eec9f076e5554a2d`. Llama (b254306f) run files sha256: A `C0D68FDC1C28553915D1A64C88EAB96A0DFD29996A3C998E620404D4DF0D351F` (`tib_open_ollama-llama3.1_8b_20261026T211450Z.json`), C `1738D6067ED23861B8662BC8085ABE5F8E52027F46D44594554874211B4C52B3` (`...+gate-notice_20261026T211910Z.json`).
+Qwen (b254306f) run files sha256: A `B775418718775FFCCDC5105B3DC1AC400B9E51EFFD90AB2EB6EFAC9276709912` (`tib_open_ollama-qwen3_8b_20261026T201337Z.json`), C `222743B2F3842A43CD93D331A77874791156ACE088F37EC034A8ECC950E84EC7` (`...+gate-notice_20261026T201627Z.json`).
 
 ChatGPT and DeepSeek agree in score on 24 of 27 tasks; they differ on T06-bcd96 and T09-1ce64 (DeepSeek correct), T10-b8f90 (ChatGPT correct; DeepSeek cites a forged source).
 
