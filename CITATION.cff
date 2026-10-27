@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "TIB-AK79: Truth Integrity Benchmark"
+version: "0.2.0"
+authors:
+  - family-names: "Kalchuk"
+    given-names: "Andrii"
+license: Apache-2.0
+repository-code: "https://github.com/andruwka79-cloud/tib-ak79"
+date-released: "2026-10-27"
