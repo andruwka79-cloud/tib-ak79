@@ -1,4 +1,4 @@
-# Preliminary: 27 no-tool tasks, five subjects (2026-10-27)
+# Preliminary: 27 no-tool tasks, six subjects (2026-10-27)
 
 Status: PRELIMINARY, limited. Not a controlled comparison. Do not rank models from this table.
 
