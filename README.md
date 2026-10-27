@@ -1,5 +1,7 @@
 # TIB-AK79 — Truth Integrity Benchmark harness
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23685588.svg)](https://doi.org/10.5281/zenodo.23685588)
+
 AI agents are usually graded by what they report ("done"). TIB-AK79 grades what actually happened: a task is run in a mock environment, the agent acts through a narrow tool protocol, and the score is computed from the **resulting state** plus a check of the agent's claims against it. Baselines that cannot be right for the right reasons (always "unknown", always "supported", a liar) are scored side by side.
 
 **Status: v0.1, early research code.** Unit tests run on fakes on Linux (stdlib only). NOT verified: the Windows subject sandbox (not included in this release) and the Inspect AI integration against a real Inspect install. Preliminary results on small local and chat models (one seed, public task set, limited comparability) are in [`docs/`](docs/): [pair](docs/RESULTS_PAIR_QWEN3_LLAMA31_2026-10-26.md), [arms A/B/C/D](docs/RESULTS_QUAD_QWEN3_LLAMA31_2026-10-27.md), [27 no-tool tasks, six subjects](docs/RESULTS_NO_TOOLS_27_PRELIMINARY_2026-10-27.md). They are not a leaderboard.
