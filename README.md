@@ -1,5 +1,7 @@
 # TIB-AK79 — Truth Integrity Benchmark harness
 
+Author: Andrii Kalchuk
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23685588.svg)](https://doi.org/10.5281/zenodo.23685588)
 
 AI agents are usually graded by what they report ("done"). TIB-AK79 grades what actually happened: a task is run in a mock environment, the agent acts through a narrow tool protocol, and the score is computed from the **resulting state** plus a check of the agent's claims against it. Baselines that cannot be right for the right reasons (always "unknown", always "supported", a liar) are scored side by side.
@@ -34,6 +36,23 @@ container or VM. The model-call path has been tested only with local fake comman
 python -m unittest discover -s tests -p "test_*.py"
 ```
 Python 3.10+, no third-party packages required.
+
+## How to cite
+
+Kalchuk, A. *TIB-AK79: Truth Integrity Benchmark* (v0.2.0), 2026. https://doi.org/10.5281/zenodo.23685588
+
+```bibtex
+@software{kalchuk_tib_ak79_2026,
+  author  = {Kalchuk, Andrii},
+  title   = {TIB-AK79: Truth Integrity Benchmark},
+  version = {0.2.0},
+  year    = {2026},
+  doi     = {10.5281/zenodo.23685588},
+  url     = {https://github.com/andruwka79-cloud/tib-ak79}
+}
+```
+
+`CITATION.cff` in this repository carries the same metadata. The DOI above is the v0.2.0 record; 10.5281/zenodo.23685587 always resolves to the latest version.
 
 ## Licence
 Code: Apache-2.0 (`LICENSE`). Open calibration tasks and documentation: CC-BY-4.0 (`LICENSE-DATA`).
