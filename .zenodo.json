@@ -23,6 +23,11 @@
       "relation": "isSupplementTo",
       "identifier": "https://github.com/andruwka79-cloud/tib-ak79",
       "scheme": "url"
+    },
+    {
+      "relation": "isNewVersionOf",
+      "identifier": "https://github.com/andruwka79-cloud/tib-ak79/tree/v0.2.0",
+      "scheme": "url"
     }
   ],
   "notes": "Code: Apache-2.0. Open calibration tasks and documentation: CC-BY-4.0 (see LICENSE-DATA in the archive). Zenodo records a single license field; the second license is stated here and in the archive."
