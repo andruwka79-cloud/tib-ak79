@@ -31,9 +31,8 @@ program that starts other programs, passes the name check and can read files the
 refusal of shell names is a guard against mistakes, not a security boundary. Run untrusted model CLIs under a dedicated OS account,
 container or VM. The model-call path has been tested only with local fake commands; it is not verified against any real model CLI.
 
-## Closed-set run on a local model (custodian only)
-`scripts/run_sealed_ollama.py` runs a sealed set through a local Ollama model under custody (signed manifest, sandbox receipt, one round per system identity) and writes only the public run receipt. Run `--check-only` first: it verifies the private cases against the public manifest and executes nothing. Exact command and the receipt format are in the script docstring; the ledger, the low-privilege agent service and the attestor receipt are supplied by the host and are not shipped.
-Public receipt (`tib_ak79.run_receipt.v1`): `manifest_sha256`, `task_set_sha256`, `seed`, `epochs`, `sandbox_receipt{seq,hash}`, `limits_applied_all`, `all_runs_valid`, `records[]` = `{task_id, epoch, score, critical_count, manifest_sha256, limits_applied, valid}`, `aggregate` (no flag names), `report` (answer accuracy vs best constant), `model{name,digest}`. Task texts, gold and salts are never part of it.
+## Closed-set run (custodian only)
+The sealed-set runner depends on the author's signed ledger and the low-privilege agent, which are not shipped here; it lives in the author's system repository (`tib_ak79/run_sealed.py`). Public receipt (`tib_ak79.run_receipt.v1`): `manifest_sha256`, `task_set_sha256`, `seed`, `epochs`, `sandbox_receipt{seq,hash}`, `limits_applied_all`, `all_runs_valid`, `records[]` = `{task_id, epoch, score, critical_count, manifest_sha256, limits_applied, valid}`, `aggregate` (no flag names), `report`, `model{name,digest}`. Task texts, gold and salts are never part of it.
 
 Reference baselines (no model, offline): `python scripts/run_baselines.py out.json`; results in `docs/RESULTS_REFERENCE_BASELINES_OPEN40_2026-10-29.md`.
 
