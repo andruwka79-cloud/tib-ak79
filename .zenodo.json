@@ -1,5 +1,5 @@
 {
-  "title": "TIB-AK79: Truth Integrity Benchmark harness and open calibration set (v0.2.0, preliminary results)",
+  "title": "TIB-AK79: Truth Integrity Benchmark harness and open calibration set (v0.3.0 draft, preliminary results)",
   "upload_type": "software",
   "description": "TIB-AK79 grades what an AI agent actually did in a mock environment (resulting state plus a check of its claims against it), not what it reports. The release contains the harness, the 40-task open calibration set, and preliminary results on small local and chat models (one seed, public task set, limited comparability; not a leaderboard). The sealed task set is not part of this release.",
   "creators": [
@@ -17,7 +17,7 @@
     "tool use",
     "evaluation"
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "related_identifiers": [
     {
       "relation": "isSupplementTo",

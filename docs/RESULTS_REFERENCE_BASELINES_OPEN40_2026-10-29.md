@@ -28,7 +28,7 @@ What this supports: constant and lying subjects do not score well; the best cons
 ## Not done / limits
 - No real-model run in the cloud (project rule: no live provider calls in development). The model results already in this repository come from the author's laptop and are not re-run here.
 - Sealed set v2 (120 tasks) was not run: its texts exist only on the laptop; a run needs custody (signed manifest + sandbox receipt) and the laptop. See the proposal in the pull request.
-- `docs/RESULTS_SEEDS_7_11_13_2026-10-29.md` cites `python -m tib_ak79.seeds_report`, which is not in this repository. Before publishing, either add it or remove the citation.
+- `docs/RESULTS_SEEDS_7_11_13_2026-10-29.md` used an internal report tool that is not in this repository; the citation of a non-existent module was replaced by a statement that the tool is internal. Those tables are reproducible only by someone holding the per-run result files.
 
 ## Кратко (RU)
 Пять скриптовых «субъектов» без модели и сети прогнаны по 40 открытым задачам (3 эпохи, сиды 7, 11, 13). Они калибруют оценку: лучший константный ответ даёт точность 0,355 по ответам — планка для реальной модели; лжец и «всегда supported» дают 0. Результат детерминирован и воспроизводится побайтно (хэши выше). Реальные модели в облаке не запускались; закрытый набор v2 запускается только на ноутбуке.
